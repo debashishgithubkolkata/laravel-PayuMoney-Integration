@@ -1,0 +1,11 @@
+PayuMoney Integration By Using Laravel
+
+1.make PayumoneyController name of controller 
+2.make routing for the connection to front and back ang also get 
+payment response
+3.make 2 view pages such as index.blade.php and response.blade.php
+4.Inside index.blade.php there need csrf token as a form field so 
+be careful with casf problem in this page
+5. After successfull of payment, the response url make some problem, this
+problem arise just for csrf. So for that you need to declare your response 
+routing into your VerifyCsrfToken.php(app\http\Middleware\)
