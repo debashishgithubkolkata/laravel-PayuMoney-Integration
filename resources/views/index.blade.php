@@ -39,8 +39,8 @@ color="e34524" bolt-logo="http://boltiswatching.com/wp-content/uploads/2015/09/B
     <input type="hidden" id="udf5" name="udf5" value="BOLT_KIT_PHP7" />
     <input type="hidden" id="surl" name="surl" value="{{ route('/getCallbackUrl') }}" />
    
-    <input type="hidden" id="key" name="key" placeholder="Merchant Key" value="Cs2s9upL" />
-    <span><input type="hidden" id="salt" name="salt" placeholder="Merchant Salt" value="AApXIDttxU" />
+    <input type="hidden" id="key" name="key" placeholder="Merchant Key" value="PUT YOUR MERCHANT KEY" />
+    <span><input type="hidden" id="salt" name="salt" placeholder="Merchant Salt" value="PUT YOUR MERCHANT SALT" />
     <input type="hidden" id="hash" name="hash" placeholder="Hash" value="" />
     
     <div class="dv">
